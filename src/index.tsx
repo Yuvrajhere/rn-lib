@@ -36,9 +36,7 @@ const AppButton: React.FC<Props> = (props) => {
       accessible
       accessibilityLabel={props.accessibilityLabel || 'A Button'}
     >
-      <Text style={[styles.text, props.textStyles]}>
-        {props.children || 'Press Me'}
-      </Text>
+      <Text style={[styles.text, props.textStyles]}>{'Press Me'}</Text>
     </Pressable>
   );
 };
