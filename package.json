@@ -61,7 +61,7 @@
   },
   "homepage": "https://github.com/Yuvrajhere/rn-lib#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
@@ -111,11 +111,9 @@
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
     },
-    "npm": {
-      "publish": true
-    },
     "github": {
-      "release": true
+      "release": true,
+      "publish": true
     },
     "plugins": {
       "@release-it/conventional-changelog": {

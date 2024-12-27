@@ -20,6 +20,5 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "react-native-builder-bob": "^0.35.2"
-  },
-  "private": true
+  }
 }
