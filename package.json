@@ -111,9 +111,11 @@
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
     },
-    "github": {
-      "release": true,
+    "npm": {
       "publish": true
+    },
+    "github": {
+      "release": true
     },
     "plugins": {
       "@release-it/conventional-changelog": {
